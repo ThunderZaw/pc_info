@@ -1,7 +1,3 @@
-# 🎉 Project Setup Complete!
-
-Your System Information Collector is ready to use!
-
 ## 📦 What You Have
 
 ```
